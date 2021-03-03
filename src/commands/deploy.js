@@ -56,7 +56,7 @@ module.exports = {
 
     let subgraphName, manifest
     try {
-      ;[subgraphName, manifest] = fixParameters(toolbox.parameters, {
+      [subgraphName, manifest] = fixParameters(toolbox.parameters, {
         h,
         help,
         w,

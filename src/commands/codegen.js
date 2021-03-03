@@ -30,7 +30,7 @@ module.exports = {
 
     let manifest
     try {
-      ;[manifest] = fixParameters(toolbox.parameters, {
+      [manifest] = fixParameters(toolbox.parameters, {
         h,
         help,
         w,
